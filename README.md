@@ -2,7 +2,7 @@
 
 **SOPHIA** is a modern, blazingly fast, and highly secure terminal UI (TUI) replacement for the classic `ping` command. Specifically optimized for macOS (Apple Silicon), it provides a stunning `btop`-style interface with real-time Braille charting and comprehensive network metrics.
 
-![SOPHIA UI Concept](https://raw.githubusercontent.com/ratatui-org/ratatui/main/assets/examples/chart.png)
+
 
 ## ✨ Features
 
