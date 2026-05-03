@@ -65,4 +65,4 @@ Simply provide a target hostname or IP address:
 
 ---
 
-Built with ❤️ by Stuart Thomas.
+Built with some thought and reflection, by Stuart Thomas.
