@@ -9,7 +9,7 @@
 - **Real-time Visualization**: High-resolution latency charting using Braille characters.
 - **Comprehensive Metrics**: Tracks Current, Min, Max, Average, Jitter, and Packet Loss.
 - **Optimized for macOS**: Built with Apple Silicon M4 in mind, leveraging unprivileged ICMP sockets.
-- **Zero Unsafe Code**: 100% safe Rust implementation for maximum security.
+- **Almost Zero Unsafe Code**:  A safe Rust implementation for maximum security.
 - **Responsive Design**: Asynchronous networking ensures the UI never freezes.
 - **Graceful Terminal Handling**: Seamlessly restores terminal state on exit.
 
