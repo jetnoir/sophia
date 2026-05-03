@@ -1,0 +1,50 @@
+.TH SOPHIA 1 "May 2026" "Sophia 0.1.0" "SOPHIA Manual"
+.SH NAME
+sophia \- a modern, TUI-based replacement for the classic ping command
+.SH SYNOPSIS
+.B sophia
+[\fIOPTIONS\fR] \fITARGET\fR
+.SH DESCRIPTION
+.B sophia
+is a high-performance terminal UI ping tool optimized for macOS. It provides a real-time dashboard displaying latency charts and network statistics.
+.SH OPTIONS
+.TP
+.BI \-i, \-\-interval " <MILLISECONDS>"
+The interval between ICMP echo requests. Default is 1000ms.
+.TP
+.BI \-t, \-\-timeout " <MILLISECONDS>"
+The time to wait for a response before marking it as a drop. Default is 1000ms.
+.TP
+.BI \-h, \-\-help
+Print help information.
+.TP
+.BI \-V, \-\-version
+Print version information.
+.SH INTERACTIVE COMMANDS
+.TP
+.B 1, 2, 3, 4
+Switch between Dashboard, Chart, Log, and Stats view modes.
+.TP
+.B F1
+Toggle the interactive help menu.
+.TP
+.B q
+Quit the application and restore the terminal state.
+.TP
+.B Esc
+Close the help menu if open.
+.TP
+.B Ctrl+C
+Forcefully exit the application and restore the terminal state.
+.SH SECURITY
+SOPHIA is written in 100% safe Rust and prioritizes unprivileged ICMP sockets (DGRAM). If system permissions prevent raw socket access, SOPHIA will report the error. Running with
+.B sudo
+may be required on some systems if unprivileged ICMP is disabled.
+.SH AUTHOR
+SOPHIA was written by Stuart Thomas.
+.SH COPYRIGHT
+Copyright (c) 2026 Stuart Thomas.
+.PP
+Licensed under the MIT License for non-commercial use. Commercial use requires a separate paid license.
+.SH SEE ALSO
+.BR ping (8)
